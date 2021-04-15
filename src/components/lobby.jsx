@@ -30,6 +30,7 @@ const Lobby = ({ setSocket, setRoomUID }) => {
           onChange={(e) => setRoomCode(e.target.value)}
           placeholder="Codigo de sala"
         />
+
         <Link to="/chat">
           <button
             onClick={() => {
