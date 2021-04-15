@@ -1,0 +1,97 @@
+form {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+input,
+button {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 5px;
+}
+input:focus,
+button {
+  border-color: rgb(49, 77, 236);
+}
+button {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(49, 77, 236);
+  color: white;
+  transition: all 0.2s;
+}
+button:hover {
+  box-shadow: 0px 2px 10px 2px rgba(49, 77, 236, 0.5);
+}
+.chatbox {
+  width: 100%;
+  height: 500px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: flex-start;
+}
+.chat {
+  width: 90%;
+  max-width: 1200px;
+}
+.chat input {
+  margin: 10px 0;
+  width: 85%;
+}
+.chat button {
+  width: 13%;
+  margin: 10px 0;
+}
+.chattext {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#root,
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home {
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.error_text {
+  color: red;
+  font-weight: bold;
+}
+#lobby {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#lobby button {
+  width: 100%;
+}
+.unir_chat {
+  display: flex;
+  width: 100%;
+}
+#lobby .unir_chat button {
+  margin: 0;
+  justify-content: space-between;
+}
+.unir_chat input {
+  width: 70%;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
